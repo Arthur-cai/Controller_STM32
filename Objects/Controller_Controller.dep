@@ -1,0 +1,1219 @@
+Dependencies for Project 'Controller', Target 'Controller': (DO NOT MODIFY !)
+F (.\CMSIS\core_cm3.c)(0x635FE703)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+F (.\CMSIS\system_stm32f10x.c)(0x635FE702)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (CMSIS\stm32f10x.h)(0x635FE702)
+I (CMSIS\core_cm3.h)(0x635FE703)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (CMSIS\system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
+F (.\STARTUP\startup_stm32f10x_md.s)(0x635FE707)(--cpu Cortex-M3 -g --apcs=interwork -I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
+F (.\FreeRTOS\croutine.c)(0x573F3A16)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\croutine.o --omf_browse .\objects\croutine.crf --depend .\objects\croutine.d)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x63F21C03)
+I (.\FreeRTOS\include\../../BASIC/sys/sys.h)(0x63FCBF33)
+I (.\FreeRTOS\include\../../BASIC/sys/../../CMSIS/stm32f10x.h)(0x635FE702)
+I (.\FreeRTOS\include\../../BASIC/sys/../../CMSIS/core_cm3.h)(0x635FE703)
+I (.\FreeRTOS\include\../../BASIC/sys/../../CMSIS/system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
+I (.\FreeRTOS\include\../../BASIC/usart/usart.h)(0x63F7861D)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (.\FreeRTOS\include\../../BASIC/usart/../../HARDWARE/TIMER/timer.h)(0x63F78679)
+I (.\CMSIS\../BASIC/usart/usart.h)(0x63F7861D)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (.\FreeRTOS\include\portable.h)(0x63E9D99A)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (.\FreeRTOS\include\../portable/RVDS/ARM_CM3/portmacro.h)(0x573F3A17)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (.\FreeRTOS\include\task.h)(0x573F3A16)
+I (.\FreeRTOS\include\list.h)(0x573F3A16)
+I (.\FreeRTOS\include\croutine.h)(0x573F3A16)
+F (.\FreeRTOS\event_groups.c)(0x573F3A16)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\event_groups.o --omf_browse .\objects\event_groups.crf --depend .\objects\event_groups.d)
+I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x63F21C03)
+I (.\FreeRTOS\include\../../BASIC/sys/sys.h)(0x63FCBF33)
+I (.\FreeRTOS\include\../../BASIC/sys/../../CMSIS/stm32f10x.h)(0x635FE702)
+I (.\FreeRTOS\include\../../BASIC/sys/../../CMSIS/core_cm3.h)(0x635FE703)
+I (.\FreeRTOS\include\../../BASIC/sys/../../CMSIS/system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
+I (.\FreeRTOS\include\../../BASIC/usart/usart.h)(0x63F7861D)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (.\FreeRTOS\include\../../BASIC/usart/../../HARDWARE/TIMER/timer.h)(0x63F78679)
+I (.\CMSIS\../BASIC/usart/usart.h)(0x63F7861D)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (.\FreeRTOS\include\portable.h)(0x63E9D99A)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (.\FreeRTOS\include\../portable/RVDS/ARM_CM3/portmacro.h)(0x573F3A17)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (.\FreeRTOS\include\task.h)(0x573F3A16)
+I (.\FreeRTOS\include\list.h)(0x573F3A16)
+I (.\FreeRTOS\include\timers.h)(0x573F3A16)
+I (.\FreeRTOS\include\event_groups.h)(0x573F3A16)
+F (.\FreeRTOS\list.c)(0x63E9DE9B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\list.o --omf_browse .\objects\list.crf --depend .\objects\list.d)
+I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (FreeRTOS\./include/FreeRTOS.h)(0x573F3A16)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (FreeRTOS\./include/FreeRTOSConfig.h)(0x63F21C03)
+I (FreeRTOS\./include/../../BASIC/sys/sys.h)(0x63FCBF33)
+I (FreeRTOS\./include/../../BASIC/sys/../../CMSIS/stm32f10x.h)(0x635FE702)
+I (FreeRTOS\./include/../../BASIC/sys/../../CMSIS/core_cm3.h)(0x635FE703)
+I (FreeRTOS\./include/../../BASIC/sys/../../CMSIS/system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
+I (FreeRTOS\./include/../../BASIC/usart/usart.h)(0x63F7861D)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (FreeRTOS\./include/../../BASIC/usart/../../HARDWARE/TIMER/timer.h)(0x63F78679)
+I (.\CMSIS\../BASIC/usart/usart.h)(0x63F7861D)
+I (FreeRTOS\./include/projdefs.h)(0x573F3A16)
+I (FreeRTOS\./include/portable.h)(0x63E9D99A)
+I (FreeRTOS\./include/deprecated_definitions.h)(0x573F3A16)
+I (FreeRTOS\./include/../portable/RVDS/ARM_CM3/portmacro.h)(0x573F3A17)
+I (FreeRTOS\./include/mpu_wrappers.h)(0x573F3A16)
+I (FreeRTOS\./include/list.h)(0x573F3A16)
+F (.\FreeRTOS\queue.c)(0x573F3A17)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x63F21C03)
+I (.\FreeRTOS\include\../../BASIC/sys/sys.h)(0x63FCBF33)
+I (.\FreeRTOS\include\../../BASIC/sys/../../CMSIS/stm32f10x.h)(0x635FE702)
+I (.\FreeRTOS\include\../../BASIC/sys/../../CMSIS/core_cm3.h)(0x635FE703)
+I (.\FreeRTOS\include\../../BASIC/sys/../../CMSIS/system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
+I (.\FreeRTOS\include\../../BASIC/usart/usart.h)(0x63F7861D)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (.\FreeRTOS\include\../../BASIC/usart/../../HARDWARE/TIMER/timer.h)(0x63F78679)
+I (.\CMSIS\../BASIC/usart/usart.h)(0x63F7861D)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (.\FreeRTOS\include\portable.h)(0x63E9D99A)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (.\FreeRTOS\include\../portable/RVDS/ARM_CM3/portmacro.h)(0x573F3A17)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (.\FreeRTOS\include\task.h)(0x573F3A16)
+I (.\FreeRTOS\include\list.h)(0x573F3A16)
+I (.\FreeRTOS\include\queue.h)(0x573F3A16)
+F (.\FreeRTOS\tasks.c)(0x573F3A17)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
+I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x63F21C03)
+I (.\FreeRTOS\include\../../BASIC/sys/sys.h)(0x63FCBF33)
+I (.\FreeRTOS\include\../../BASIC/sys/../../CMSIS/stm32f10x.h)(0x635FE702)
+I (.\FreeRTOS\include\../../BASIC/sys/../../CMSIS/core_cm3.h)(0x635FE703)
+I (.\FreeRTOS\include\../../BASIC/sys/../../CMSIS/system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
+I (.\FreeRTOS\include\../../BASIC/usart/usart.h)(0x63F7861D)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (.\FreeRTOS\include\../../BASIC/usart/../../HARDWARE/TIMER/timer.h)(0x63F78679)
+I (.\CMSIS\../BASIC/usart/usart.h)(0x63F7861D)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (.\FreeRTOS\include\portable.h)(0x63E9D99A)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (.\FreeRTOS\include\../portable/RVDS/ARM_CM3/portmacro.h)(0x573F3A17)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (.\FreeRTOS\include\task.h)(0x573F3A16)
+I (.\FreeRTOS\include\list.h)(0x573F3A16)
+I (.\FreeRTOS\include\timers.h)(0x573F3A16)
+I (.\FreeRTOS\include\StackMacros.h)(0x573F3A16)
+F (.\FreeRTOS\timers.c)(0x573F3A17)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\timers.o --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
+I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x63F21C03)
+I (.\FreeRTOS\include\../../BASIC/sys/sys.h)(0x63FCBF33)
+I (.\FreeRTOS\include\../../BASIC/sys/../../CMSIS/stm32f10x.h)(0x635FE702)
+I (.\FreeRTOS\include\../../BASIC/sys/../../CMSIS/core_cm3.h)(0x635FE703)
+I (.\FreeRTOS\include\../../BASIC/sys/../../CMSIS/system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
+I (.\FreeRTOS\include\../../BASIC/usart/usart.h)(0x63F7861D)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (.\FreeRTOS\include\../../BASIC/usart/../../HARDWARE/TIMER/timer.h)(0x63F78679)
+I (.\CMSIS\../BASIC/usart/usart.h)(0x63F7861D)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (.\FreeRTOS\include\portable.h)(0x63E9D99A)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (.\FreeRTOS\include\../portable/RVDS/ARM_CM3/portmacro.h)(0x573F3A17)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (.\FreeRTOS\include\task.h)(0x573F3A16)
+I (.\FreeRTOS\include\list.h)(0x573F3A16)
+I (.\FreeRTOS\include\queue.h)(0x573F3A16)
+I (.\FreeRTOS\include\timers.h)(0x573F3A16)
+F (.\FreeRTOS\portable\RVDS\ARM_CM3\port.c)(0x573F3A17)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x63F21C03)
+I (.\FreeRTOS\include\../../BASIC/sys/sys.h)(0x63FCBF33)
+I (.\FreeRTOS\include\../../BASIC/sys/../../CMSIS/stm32f10x.h)(0x635FE702)
+I (.\FreeRTOS\include\../../BASIC/sys/../../CMSIS/core_cm3.h)(0x635FE703)
+I (.\FreeRTOS\include\../../BASIC/sys/../../CMSIS/system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
+I (.\FreeRTOS\include\../../BASIC/usart/usart.h)(0x63F7861D)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (.\FreeRTOS\include\../../BASIC/usart/../../HARDWARE/TIMER/timer.h)(0x63F78679)
+I (.\CMSIS\../BASIC/usart/usart.h)(0x63F7861D)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (.\FreeRTOS\include\portable.h)(0x63E9D99A)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (.\FreeRTOS\include\../portable/RVDS/ARM_CM3/portmacro.h)(0x573F3A17)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (.\FreeRTOS\include\task.h)(0x573F3A16)
+I (.\FreeRTOS\include\list.h)(0x573F3A16)
+F (.\FreeRTOS\portable\MemMang\heap_4.c)(0x573F3A16)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\heap_4.o --omf_browse .\objects\heap_4.crf --depend .\objects\heap_4.d)
+I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x63F21C03)
+I (.\FreeRTOS\include\../../BASIC/sys/sys.h)(0x63FCBF33)
+I (.\FreeRTOS\include\../../BASIC/sys/../../CMSIS/stm32f10x.h)(0x635FE702)
+I (.\FreeRTOS\include\../../BASIC/sys/../../CMSIS/core_cm3.h)(0x635FE703)
+I (.\FreeRTOS\include\../../BASIC/sys/../../CMSIS/system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
+I (.\FreeRTOS\include\../../BASIC/usart/usart.h)(0x63F7861D)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (.\FreeRTOS\include\../../BASIC/usart/../../HARDWARE/TIMER/timer.h)(0x63F78679)
+I (.\CMSIS\../BASIC/usart/usart.h)(0x63F7861D)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (.\FreeRTOS\include\portable.h)(0x63E9D99A)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (.\FreeRTOS\include\../portable/RVDS/ARM_CM3/portmacro.h)(0x573F3A17)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (.\FreeRTOS\include\task.h)(0x573F3A16)
+I (.\FreeRTOS\include\list.h)(0x573F3A16)
+F (.\FWLIB\src\misc.c)(0x635FE70F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\CMSIS\core_cm3.h)(0x635FE703)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+F (.\FWLIB\src\stm32f10x_adc.c)(0x635FE70F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_adc.o --omf_browse .\objects\stm32f10x_adc.crf --depend .\objects\stm32f10x_adc.d)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\CMSIS\core_cm3.h)(0x635FE703)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
+F (.\FWLIB\src\stm32f10x_dma.c)(0x635FE70C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_dma.o --omf_browse .\objects\stm32f10x_dma.crf --depend .\objects\stm32f10x_dma.d)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\CMSIS\core_cm3.h)(0x635FE703)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
+F (.\FWLIB\src\stm32f10x_flash.c)(0x635FE710)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_flash.o --omf_browse .\objects\stm32f10x_flash.crf --depend .\objects\stm32f10x_flash.d)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\CMSIS\core_cm3.h)(0x635FE703)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
+F (.\FWLIB\src\stm32f10x_exti.c)(0x635FE70F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_exti.o --omf_browse .\objects\stm32f10x_exti.crf --depend .\objects\stm32f10x_exti.d)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\CMSIS\core_cm3.h)(0x635FE703)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
+F (.\FWLIB\src\stm32f10x_gpio.c)(0x635FE70E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\CMSIS\core_cm3.h)(0x635FE703)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
+F (.\FWLIB\src\stm32f10x_i2c.c)(0x635FE70E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_i2c.o --omf_browse .\objects\stm32f10x_i2c.crf --depend .\objects\stm32f10x_i2c.d)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\CMSIS\core_cm3.h)(0x635FE703)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
+F (.\FWLIB\src\stm32f10x_rcc.c)(0x635FE70D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\CMSIS\core_cm3.h)(0x635FE703)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
+F (.\FWLIB\src\stm32f10x_spi.c)(0x635FE710)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_spi.o --omf_browse .\objects\stm32f10x_spi.crf --depend .\objects\stm32f10x_spi.d)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\CMSIS\core_cm3.h)(0x635FE703)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
+F (.\FWLIB\src\stm32f10x_tim.c)(0x635FE70E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_tim.o --omf_browse .\objects\stm32f10x_tim.crf --depend .\objects\stm32f10x_tim.d)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\CMSIS\core_cm3.h)(0x635FE703)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
+F (.\FWLIB\src\stm32f10x_usart.c)(0x635FE70B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_usart.o --omf_browse .\objects\stm32f10x_usart.crf --depend .\objects\stm32f10x_usart.d)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\CMSIS\core_cm3.h)(0x635FE703)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
+F (.\BASIC\delay\delay.c)(0x63F785FD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (BASIC\delay\delay.h)(0x63F78633)
+I (BASIC\delay\../sys/sys.h)(0x63FCBF33)
+I (BASIC\delay\../sys/../../CMSIS/stm32f10x.h)(0x635FE702)
+I (BASIC\delay\../sys/../../CMSIS/core_cm3.h)(0x635FE703)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (BASIC\delay\../sys/../../CMSIS/system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x63F21C03)
+I (.\FreeRTOS\include\../../BASIC/usart/usart.h)(0x63F7861D)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (.\FreeRTOS\include\../../BASIC/usart/../../HARDWARE/TIMER/timer.h)(0x63F78679)
+I (.\CMSIS\../BASIC/usart/usart.h)(0x63F7861D)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (.\FreeRTOS\include\portable.h)(0x63E9D99A)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (.\FreeRTOS\include\../portable/RVDS/ARM_CM3/portmacro.h)(0x573F3A17)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (.\FreeRTOS\include\task.h)(0x573F3A16)
+I (.\FreeRTOS\include\list.h)(0x573F3A16)
+F (.\BASIC\spi\spi.c)(0x63FB583A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
+I (BASIC\spi\spi.h)(0x63FB5894)
+I (BASIC\spi\../sys/sys.h)(0x63FCBF33)
+I (BASIC\spi\../sys/../../CMSIS/stm32f10x.h)(0x635FE702)
+I (BASIC\spi\../sys/../../CMSIS/core_cm3.h)(0x635FE703)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (BASIC\spi\../sys/../../CMSIS/system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
+F (.\BASIC\sys\sys.c)(0x63F78706)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\sys.o --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
+I (BASIC\sys\sys.h)(0x63FCBF33)
+I (BASIC\sys\../../CMSIS/stm32f10x.h)(0x635FE702)
+I (BASIC\sys\../../CMSIS/core_cm3.h)(0x635FE703)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (BASIC\sys\../../CMSIS/system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
+F (.\BASIC\usart\usart.c)(0x63FCC1C2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (BASIC\usart\usart.h)(0x63F7861D)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (BASIC\usart\../sys/sys.h)(0x63FCBF33)
+I (BASIC\usart\../sys/../../CMSIS/stm32f10x.h)(0x635FE702)
+I (BASIC\usart\../sys/../../CMSIS/core_cm3.h)(0x635FE703)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (BASIC\usart\../sys/../../CMSIS/system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
+I (BASIC\usart\../../HARDWARE/TIMER/timer.h)(0x63F78679)
+I (.\CMSIS\../BASIC/usart/usart.h)(0x63F7861D)
+I (BASIC\usart\../../FreeRTOS/include/FreeRTOS.h)(0x573F3A16)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (BASIC\usart\../../FreeRTOS/include/FreeRTOSConfig.h)(0x63F21C03)
+I (BASIC\usart\../../FreeRTOS/include/projdefs.h)(0x573F3A16)
+I (BASIC\usart\../../FreeRTOS/include/portable.h)(0x63E9D99A)
+I (BASIC\usart\../../FreeRTOS/include/deprecated_definitions.h)(0x573F3A16)
+I (BASIC\usart\../../FreeRTOS/include/../portable/RVDS/ARM_CM3/portmacro.h)(0x573F3A17)
+I (BASIC\usart\../../FreeRTOS/include/mpu_wrappers.h)(0x573F3A16)
+I (BASIC\usart\../../FreeRTOS/include/task.h)(0x573F3A16)
+I (BASIC\usart\../../FreeRTOS/include/list.h)(0x573F3A16)
+I (BASIC\usart\../../FreeRTOS/include/queue.h)(0x573F3A16)
+I (BASIC\usart\../../FreeRTOS/include/semphr.h)(0x573F3A16)
+F (.\BASIC\i2c\i2c.c)(0x63FB578F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\i2c.o --omf_browse .\objects\i2c.crf --depend .\objects\i2c.d)
+I (BASIC\i2c\i2c.h)(0x63FB57BA)
+I (BASIC\i2c\../sys/sys.h)(0x63FCBF33)
+I (BASIC\i2c\../sys/../../CMSIS/stm32f10x.h)(0x635FE702)
+I (BASIC\i2c\../sys/../../CMSIS/core_cm3.h)(0x635FE703)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (BASIC\i2c\../sys/../../CMSIS/system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
+F (.\HARDWARE\JOY_STICK\joy_stick.c)(0x63F7864E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\joy_stick.o --omf_browse .\objects\joy_stick.crf --depend .\objects\joy_stick.d)
+I (HARDWARE\JOY_STICK\joy_stick.h)(0x63FB5568)
+I (HARDWARE\JOY_STICK\../../BASIC/sys/sys.h)(0x63FCBF33)
+I (HARDWARE\JOY_STICK\../../BASIC/sys/../../CMSIS/stm32f10x.h)(0x635FE702)
+I (HARDWARE\JOY_STICK\../../BASIC/sys/../../CMSIS/core_cm3.h)(0x635FE703)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (HARDWARE\JOY_STICK\../../BASIC/sys/../../CMSIS/system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
+I (HARDWARE\JOY_STICK\../NRF24L01/24l01.h)(0x63FA4070)
+I (HARDWARE\JOY_STICK\../NRF24L01/../../BASIC/delay/delay.h)(0x63F78633)
+I (HARDWARE\JOY_STICK\../NRF24L01/../../BASIC/spi/spi.h)(0x63FB5894)
+I (HARDWARE\JOY_STICK\../NRF24L01/../../BASIC/usart/usart.h)(0x63F7861D)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (HARDWARE\JOY_STICK\../NRF24L01/../../BASIC/usart/../../HARDWARE/TIMER/timer.h)(0x63F78679)
+I (.\CMSIS\../BASIC/usart/usart.h)(0x63F7861D)
+F (.\HARDWARE\LED\led.c)(0x63FCCB18)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (HARDWARE\LED\led.h)(0x63F78655)
+I (HARDWARE\LED\../../BASIC/sys/sys.h)(0x63FCBF33)
+I (HARDWARE\LED\../../BASIC/sys/../../CMSIS/stm32f10x.h)(0x635FE702)
+I (HARDWARE\LED\../../BASIC/sys/../../CMSIS/core_cm3.h)(0x635FE703)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (HARDWARE\LED\../../BASIC/sys/../../CMSIS/system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
+F (.\HARDWARE\NRF24L01\24l01.c)(0x63FA4050)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\24l01.o --omf_browse .\objects\24l01.crf --depend .\objects\24l01.d)
+I (HARDWARE\NRF24L01\24l01.h)(0x63FA4070)
+I (HARDWARE\NRF24L01\../../BASIC/sys/sys.h)(0x63FCBF33)
+I (HARDWARE\NRF24L01\../../BASIC/sys/../../CMSIS/stm32f10x.h)(0x635FE702)
+I (HARDWARE\NRF24L01\../../BASIC/sys/../../CMSIS/core_cm3.h)(0x635FE703)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (HARDWARE\NRF24L01\../../BASIC/sys/../../CMSIS/system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
+I (HARDWARE\NRF24L01\../../BASIC/delay/delay.h)(0x63F78633)
+I (HARDWARE\NRF24L01\../../BASIC/spi/spi.h)(0x63FB5894)
+I (HARDWARE\NRF24L01\../../BASIC/usart/usart.h)(0x63F7861D)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (HARDWARE\NRF24L01\../../BASIC/usart/../../HARDWARE/TIMER/timer.h)(0x63F78679)
+I (.\CMSIS\../BASIC/usart/usart.h)(0x63F7861D)
+F (.\HARDWARE\OLED096\oled096.c)(0x63FB532C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\oled096.o --omf_browse .\objects\oled096.crf --depend .\objects\oled096.d)
+I (HARDWARE\OLED096\oled096.h)(0x63FB5633)
+I (HARDWARE\OLED096\../../BASIC/sys/sys.h)(0x63FCBF33)
+I (HARDWARE\OLED096\../../BASIC/sys/../../CMSIS/stm32f10x.h)(0x635FE702)
+I (HARDWARE\OLED096\../../BASIC/sys/../../CMSIS/core_cm3.h)(0x635FE703)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (HARDWARE\OLED096\../../BASIC/sys/../../CMSIS/system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
+I (HARDWARE\OLED096\../../BASIC/i2c/i2c.h)(0x63FB57BA)
+I (HARDWARE\OLED096\ascii_8x16.h)(0x63E0A5DD)
+F (.\HARDWARE\TIMER\timer.c)(0x63FCCAE0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (HARDWARE\TIMER\timer.h)(0x63F78679)
+I (.\CMSIS\../BASIC/sys/sys.h)(0x63FCBF33)
+I (.\CMSIS\../BASIC/sys/../../CMSIS/stm32f10x.h)(0x635FE702)
+I (.\CMSIS\../BASIC/sys/../../CMSIS/core_cm3.h)(0x635FE703)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\../BASIC/sys/../../CMSIS/system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
+I (.\CMSIS\../BASIC/usart/usart.h)(0x63F7861D)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (.\CMSIS\../BASIC/usart/../../HARDWARE/TIMER/timer.h)(0x63F78679)
+I (HARDWARE\TIMER\../../FreeRTOS/include/FreeRTOS.h)(0x573F3A16)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (HARDWARE\TIMER\../../FreeRTOS/include/FreeRTOSConfig.h)(0x63F21C03)
+I (HARDWARE\TIMER\../../FreeRTOS/include/projdefs.h)(0x573F3A16)
+I (HARDWARE\TIMER\../../FreeRTOS/include/portable.h)(0x63E9D99A)
+I (HARDWARE\TIMER\../../FreeRTOS/include/deprecated_definitions.h)(0x573F3A16)
+I (HARDWARE\TIMER\../../FreeRTOS/include/../portable/RVDS/ARM_CM3/portmacro.h)(0x573F3A17)
+I (HARDWARE\TIMER\../../FreeRTOS/include/mpu_wrappers.h)(0x573F3A16)
+I (HARDWARE\TIMER\../../FreeRTOS/include/queue.h)(0x573F3A16)
+I (HARDWARE\TIMER\../../FreeRTOS/include/task.h)(0x573F3A16)
+I (HARDWARE\TIMER\../../FreeRTOS/include/list.h)(0x573F3A16)
+F (.\USER\main.c)(0x63FB51D8)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (USER\../BASIC/sys/sys.h)(0x63FCBF33)
+I (USER\../BASIC/sys/../../CMSIS/stm32f10x.h)(0x635FE702)
+I (USER\../BASIC/sys/../../CMSIS/core_cm3.h)(0x635FE703)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (USER\../BASIC/sys/../../CMSIS/system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
+I (USER\../BASIC/usart/usart.h)(0x63F7861D)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (USER\../BASIC/usart/../../HARDWARE/TIMER/timer.h)(0x63F78679)
+I (.\CMSIS\../BASIC/usart/usart.h)(0x63F7861D)
+I (USER\../BASIC/delay/delay.h)(0x63F78633)
+I (USER\../HARDWARE/LED/led.h)(0x63F78655)
+I (USER\../HARDWARE/OLED096/oled096.h)(0x63FB5633)
+I (USER\../HARDWARE/OLED096/../../BASIC/i2c/i2c.h)(0x63FB57BA)
+I (USER\../HARDWARE/NRF24L01/24l01.h)(0x63FA4070)
+I (USER\../HARDWARE/NRF24L01/../../BASIC/spi/spi.h)(0x63FB5894)
+I (USER\../HARDWARE/JOY_STICK/joy_stick.h)(0x63FB5568)
+I (USER\main_task_config.h)(0x63F79CAE)
+I (USER\../FreeRTOS/include/FreeRTOS.h)(0x573F3A16)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (USER\../FreeRTOS/include/FreeRTOSConfig.h)(0x63F21C03)
+I (USER\../FreeRTOS/include/projdefs.h)(0x573F3A16)
+I (USER\../FreeRTOS/include/portable.h)(0x63E9D99A)
+I (USER\../FreeRTOS/include/deprecated_definitions.h)(0x573F3A16)
+I (USER\../FreeRTOS/include/../portable/RVDS/ARM_CM3/portmacro.h)(0x573F3A17)
+I (USER\../FreeRTOS/include/mpu_wrappers.h)(0x573F3A16)
+I (USER\../FreeRTOS/include/task.h)(0x573F3A16)
+I (USER\../FreeRTOS/include/list.h)(0x573F3A16)
+I (USER\../FreeRTOS/include/queue.h)(0x573F3A16)
+I (USER\../FreeRTOS/include/semphr.h)(0x573F3A16)
+I (USER\../FreeRTOS/include/event_groups.h)(0x573F3A16)
+I (USER\../FreeRTOS/include/timers.h)(0x573F3A16)
+I (E:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+F (.\USER\stm32f10x_it.c)(0x63EE3233)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CMSIS -I.\STARTUP -I.\FWLIB\inc -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\BASIC\delay -I.\BASIC\spi -I.\BASIC\sys -I.\BASIC\usart -I.\BASIC\i2c -I.\USER -I.\HARDWARE\JOY_STICK -I.\HARDWARE\LED -I.\HARDWARE\NRF24L01 -I.\HARDWARE\OLED096 -I.\HARDWARE\TIMER-I c:\Users\arthu\Desktop\Controller\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_it.o --omf_browse .\objects\stm32f10x_it.crf --depend .\objects\stm32f10x_it.d)
+I (USER\stm32f10x_it.h)(0x635FE706)
+I (.\CMSIS\stm32f10x.h)(0x635FE702)
+I (.\CMSIS\core_cm3.h)(0x635FE703)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\system_stm32f10x.h)(0x635FE704)
+I (.\USER\stm32f10x_conf.h)(0x635FE709)
+I (.\FWLIB\inc\stm32f10x_adc.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_bkp.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_can.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_cec.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_crc.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_dac.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dbgmcu.h)(0x635FE710)
+I (.\FWLIB\inc\stm32f10x_dma.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_exti.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_flash.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_fsmc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_gpio.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_i2c.h)(0x635FE715)
+I (.\FWLIB\inc\stm32f10x_iwdg.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_pwr.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rcc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_rtc.h)(0x635FE713)
+I (.\FWLIB\inc\stm32f10x_sdio.h)(0x635FE711)
+I (.\FWLIB\inc\stm32f10x_spi.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_tim.h)(0x635FE712)
+I (.\FWLIB\inc\stm32f10x_usart.h)(0x635FE714)
+I (.\FWLIB\inc\stm32f10x_wwdg.h)(0x635FE712)
+I (.\FWLIB\inc\misc.h)(0x635FE715)
