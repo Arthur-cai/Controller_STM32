@@ -100,5 +100,5 @@ void MSR_MSP(u32 addr);	//设置堆栈地址
 */
 void NVIC_Configuration(void);
 
-void RCC_Configuration(void);
+//void RCC_Configuration(void);
 #endif

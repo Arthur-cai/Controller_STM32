@@ -183,15 +183,19 @@
 /*                                FreeRTOS与中断有关的配置选项                                                  */
 /***************************************************************************************************************/
 #ifdef __NVIC_PRIO_BITS
-	#define configPRIO_BITS       		__NVIC_PRIO_BITS
+	#define configPRIO_BITS       		__NVIC_PRIO_BITS       //高4位有效
 #else
 	#define configPRIO_BITS       		4                  
 #endif
 
-#define configLIBRARY_LOWEST_INTERRUPT_PRIORITY			15                      //中断最低优先级
-#define configLIBRARY_MAX_SYSCALL_INTERRUPT_PRIORITY	5                       //系统可管理的最高中断优先级
-#define configKERNEL_INTERRUPT_PRIORITY 		( configLIBRARY_LOWEST_INTERRUPT_PRIORITY << (8 - configPRIO_BITS) )
-#define configMAX_SYSCALL_INTERRUPT_PRIORITY 	( configLIBRARY_MAX_SYSCALL_INTERRUPT_PRIORITY << (8 - configPRIO_BITS) )
+#define configLIBRARY_LOWEST_INTERRUPT_PRIORITY			15     //中断最低优先级，STM32选择组4配置时，最多16位优先级
+#define configLIBRARY_MAX_SYSCALL_INTERRUPT_PRIORITY	5      //系统可管理的最高中断优先级，高于此优先级(即0~4)的不由OS管理
+#define configKERNEL_INTERRUPT_PRIORITY 		( \
+            configLIBRARY_LOWEST_INTERRUPT_PRIORITY \
+            << (8 - configPRIO_BITS) )                         //左移4位，内核中断优先级用于PendSV和SysTick中断
+#define configMAX_SYSCALL_INTERRUPT_PRIORITY 	( \
+            configLIBRARY_MAX_SYSCALL_INTERRUPT_PRIORITY \
+            << (8 - configPRIO_BITS) )                         //左移4位, 系统可管理的最高中断优先级，高于此优先级的不由OS管理
 
 /***************************************************************************************************************/
 /*                                FreeRTOS与中断服务函数有关的配置选项                                          */

@@ -120,11 +120,7 @@ static void GET_AverageAdcValue(void) {
 
 /**
  * @brief	调用GET_AverageAdcValue()，判断阈值，返回对应运动方式的命令
- * @param	com，存放命令的数组
-			FORWARD_COM		0xA0，
-			BACKWARD_COM	0x20，
-			LEFT_COM		0x0E，
-			RIGHT_COM		0x06
+ * @param	com，存放命令的数组 @ref FORWARD_COM, BACKWARD_COM, LEFT_COM, RIGHT_COM
 */
 void Motion_Judge(u8* com) {
 	GET_AverageAdcValue();
@@ -139,8 +135,8 @@ void Motion_Judge(u8* com) {
 
 /**
  * @brief	读取摇杆按键值
- * @param	mode	连续模式，CONTINUE连按，NOT_CONTINUE非连按
- * @retval	按键按下情况		LEFT_STICK_KEY_PRESS 或 RIGHT_STICK_KEY_PRESS
+ * @param	mode, 连续模式 @ref CONTINUE连按，NOT_CONTINUE非连按
+ * @retval	按键按下情况 @ref LEFT_STICK_KEY_PRESS 或 RIGHT_STICK_KEY_PRESS
 */
 StickKeyType STICK_KEY_Status(ContinueMode mode) {
 	static u8 KEY_UP_FLAG = 1; //按键送开标记

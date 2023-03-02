@@ -160,7 +160,7 @@ void USART3_Init(u32 baudRate) {
 	//Usart3 NVIC 配置
 	NVIC_InitStructure.NVIC_IRQChannel = USART3_IRQn;
 #if FREE_RTOS_SUPPORT
-	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 6;//抢占优先级8
+	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 6;//抢占优先级6
 	NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;
 #else
 	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 2;//抢占优先级2

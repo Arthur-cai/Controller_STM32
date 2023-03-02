@@ -1,21 +1,23 @@
 #include "delay.h"
-////////////////////////////////////////////////////////////////////////////////// 	 
-//如果需要使用OS,则包括下面的头文件即可.
+
+//如果需要使用OS,则包括下面的头文件即可
 #if FREE_RTOS_SUPPORT
-#include "FreeRTOS.h" //FreeRTOS使用		  
-#include "task.h"	  
-#endif
+#include "FreeRTOS.h" //FreeRTOS使用
+#include "task.h"
+#endif // FREE_RTOS_SUPPORT
 
 static u8  fac_us = 0;	//us延时倍乘数
 static u16 fac_ms = 0;	//ms延时倍乘数,在os下,代表每个节拍的ms数
 
 extern void xPortSysTickHandler(void);
 
+#if FREE_RTOS_SUPPORT
 //systick中断服务函数,使用os时用到
 void SysTick_Handler(void) {
 	//系统已经运行
 	if (xTaskGetSchedulerState() != taskSCHEDULER_NOT_STARTED) xPortSysTickHandler();
 }
+#endif // FREE_RTOS_SUPPORT
 
 /**
  * @brief	初始化延时函数
@@ -28,13 +30,13 @@ void delay_init() {
 	fac_us = SystemCoreClock / 1000000;
 #else
 	fac_us = SystemCoreClock / 8000000;	//为系统时钟的1/8  
-#endif
+#endif // FREE_RTOS_SUPPORT
 	SysTick_CLKSourceConfig(SysTick_CLKSource_HCLK_Div8); //选择外部时钟 HCLK/8
 	
 #if FREE_RTOS_SUPPORT  //如果需要支持OS
-	reload = SystemCoreClock / 1000000;		//每秒钟的计数次数 单位为M  
-	reload *= 1000000 / configTICK_RATE_HZ;	//根据configTICK_RATE_HZ设定溢出时间
-	//reload为24位寄存器,最大值:16777216,在72M下,约合0.233s左右	
+	reload = SystemCoreClock / 1000000;		//每秒钟的计数次数 72000000/1000000 = 72Hz
+	reload *= 1000000 / configTICK_RATE_HZ;	/* 根据configTICK_RATE_HZ设定溢出时间, reload为24位寄存器, 最大值:16777216
+												在72M下,约合0.233s左右	*/
 	fac_ms = 1000 / configTICK_RATE_HZ;	//代表OS可以延时的最少单位	   
 
 	SysTick->CTRL |= SysTick_CTRL_TICKINT_Msk;  //开启SYSTICK中断
@@ -42,7 +44,7 @@ void delay_init() {
 	SysTick->CTRL |= SysTick_CTRL_ENABLE_Msk;   //开启SYSTICK   
 #else
 	fac_ms = (u16)fac_us * 1000; //非OS下,代表每个ms需要的systick时钟数   
-#endif
+#endif // FREE_RTOS_SUPPORT
 }
 
 /**
